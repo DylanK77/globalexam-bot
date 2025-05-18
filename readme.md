@@ -33,6 +33,13 @@ Deux modules inclus :
 
 - `auto_qcm_ecrit.py` : Pour les QCM écrits (1 question par page), avec support image ou texte.
 - `auto_qcm_audio.py` : Pour les QCM audio (plusieurs questions par page), avec récupération de transcription automatique.
+- 
+> ℹ️ Le script `auto_qcm_audio.py` est volontairement conçu pour fonctionner **uniquement sur les exercices d'entraînement** de la plateforme GlobalExam, et **pas pendant les examens notés**.  
+> Cette restriction a été intégrée **intentionnellement** afin de garantir un usage strictement éducatif, sans possibilité de triche ou de contournement des évaluations officielles.
+
+> ⚠️ Le script `auto_qcm_ecrit.py` n’a pas été conçu spécifiquement pour détecter si l’utilisateur se trouve en **mode examen ou exercice**.  
+> Son usage est donc **réservé uniquement aux sessions d’entraînement** dans un objectif personnel, éducatif et non évaluatif.  
+> L’auteur **déconseille strictement** toute tentative d’utilisation en condition d’examen.
 
 ---
 
